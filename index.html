@@ -3,81 +3,245 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AI+Design Studio Command Center</title>
+  <title>Green AI Data Centers: Energy and Land</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<!--
-  THIS IS YOUR DASHBOARD. GitHub Pages serves this file.
-  Replace the placeholder text below with the real content from your
-  AI+Design Studio Command Center (Canvas: Project 2, Step 2).
-  KEEP OR TRIM: delete any <section> you did not build - all seven or a
-  subset is fine. Beginnings-level content is fine; this is the on-ramp,
-  not Project 5. Make it yours; do not leave it looking like a template.
--->
 <body>
+
   <header class="site-header">
-    <p class="eyebrow">AI + Design Studio &#183; Command Center</p>
-    <h1 id="project-title">Your Project Title</h1>
-    <p class="tagline">One-line summary of what you are investigating &#8212; and your name.</p>
+    <p class="eyebrow">AI + Design Studio &middot; Research Dashboard</p>
+    <h1 id="project-title">Green AI Data Centers:<br />Energy and Land</h1>
+    <p class="tagline">Exposing the hidden physical cost of the cloud &mdash; from greenwashing to grassroots action &mdash; by Zahara Acevedo</p>
   </header>
 
   <main class="container">
 
-    <!-- Project Identity Card -->
-    <section aria-labelledby="identity-h">
-      <h2 id="identity-h">Project Identity Card</h2>
-      <p>Title, curiosity statement, short summary, audience / context, and possible final direction(s).</p>
+    <!-- Research Question -->
+    <section aria-labelledby="rq-h">
+      <h2 id="rq-h">Research Question</h2>
+      <p><strong>How can we expose the hidden physical cost of AI data centers, strip away the greenwashing of Big Tech (Microsoft, Amazon, Google), and equip communities with tactical tools &mdash; CBAs, transparency scorecards, advocacy templates &mdash; to demand truly sustainable Green AI infrastructure?</strong></p>
+      <div class="stat-row">
+        <div class="stat">
+          <span class="stat-num">355M</span>
+          <span class="stat-label">tonnes GHG by 2030</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">664B</span>
+          <span class="stat-label">liters water by 2030</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">5M</span>
+          <span class="stat-label">tonnes e-waste 2020&ndash;30</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">1&ndash;3 yr</span>
+          <span class="stat-label">AI chip lifespan</span>
+        </div>
+      </div>
     </section>
 
-    <!-- Inquiry Brief -->
-    <section aria-labelledby="inquiry-h">
-      <h2 id="inquiry-h">Inquiry Brief</h2>
-      <p>Your research question, why it matters, what you need to learn, and 2&#8211;3 possible final outcomes.</p>
+    <!-- The Big Three -->
+    <section aria-labelledby="big3-h">
+      <h2 id="big3-h">The Big Three &mdash; Transparency Crisis</h2>
+      <p class="section-lede">Behind the glossy sustainability reports, the physical reality tells a different story. Each company markets itself as "green" while their actual impacts surge.</p>
+      <div class="big3-grid">
+        <article class="big3-card ms">
+          <h3>Microsoft</h3>
+          <p class="big3-sub">The "Ambitious" Giant</p>
+          <ul>
+            <li><strong>Market-based Scope 2:</strong> down 56% on paper</li>
+            <li><strong>Location-based Scope 2:</strong> <span class="up">up 130%</span> (4.3M &rarr; 9.9M tonnes CO<sub>2</sub>)</li>
+            <li>Driving gas plant expansions in North Carolina</li>
+            <li>Colocation secrecy hides true fossil fuel reliance</li>
+          </ul>
+        </article>
+        <article class="big3-card aws">
+          <h3>Amazon (AWS)</h3>
+          <p class="big3-sub">The "Secretive" Giant</p>
+          <ul>
+            <li>10.5 billion gallons used (2021); leaked memos show deliberate concealment</li>
+            <li>Excluded "secondary" water use from "Water Positive" goal</li>
+            <li>Funded non-profits to <strong>obfuscate water footprint</strong></li>
+            <li>Avoided Scope 3 water targets — execs "didn't want a standard to follow"</li>
+          </ul>
+        </article>
+        <article class="big3-card goog">
+          <h3>Google</h3>
+          <p class="big3-sub">The "Efficiency" Giant</p>
+          <ul>
+            <li><strong>Location-based emissions:</strong> <span class="up">up 92%</span> (5.8M &rarr; 11.2M tonnes)</li>
+            <li><strong>Water consumption:</strong> <span class="up">up 88%</span> since 2019 (8.1B gallons)</li>
+            <li>Omits downstream carbon from oil-industry AI clients</li>
+            <li>Efficiency praised, but absolute growth outpaces mitigation</li>
+          </ul>
+        </article>
+      </div>
+      <p class="footnote">Source: Greenpeace "Clicking Clean," Microsoft 2025 Sustainability Report, The Guardian, Boston University transparency report, Kapor Foundation.</p>
     </section>
 
-    <!-- Source Starter List -->
+    <!-- Information Interactions -->
     <section aria-labelledby="sources-h">
-      <h2 id="sources-h">Source Starter List</h2>
-      <ul>
-        <li>Source 1 &#8212; title, creator, link, type, why it matters</li>
-        <li>Source 2 &#8212; title, creator, link, type, why it matters</li>
-        <li>Source 3 &#8212; optional</li>
-      </ul>
+      <h2 id="sources-h">Information Interactions &mdash; Sources &amp; Notes</h2>
+      <p class="section-lede">Six research interactions tracing the arc from AI infrastructure hardware through environmental costs, cooling technology, Microsoft's case study, the transparency crisis, and finally community advocacy.</p>
+      <ol class="interaction-list">
+        <li>
+          <strong>AI Infrastructure &amp; the "AI Factory"</strong>
+          <p>GPUs consume 10&ndash;15x more power than CPUs; hyperscale data centers, NVMe SSDs, liquid cooling, and the shift to agentic AI. <a href="Project%202/milanote%20markdowns/step-3--research-map--information-interactions-1-260602_0516.md">Notes &rarr;</a></p>
+        </li>
+        <li>
+          <strong>Environmental Costs of AI</strong>
+          <p>Energy, water, e-waste, and embodied carbon across the AI lifecycle. Projected 165% increase in data center electricity demand by 2030.</p>
+        </li>
+        <li>
+          <strong>Cooling Technologies</strong>
+          <p>Evaporative vs. liquid vs. immersion cooling; zero-water closed-loop designs; waste heat recovery and district heating (Google Hamina).</p>
+        </li>
+        <li>
+          <strong>Microsoft Case Study</strong>
+          <p>Market-based vs. location-based accounting; mass timber construction; chip-level liquid cooling; Scope 3 challenges. <a href="Project%202/milanote%20markdowns/information-interactions-4--ai--design-studio-week-8-260602_0518.md">Notes &rarr;</a></p>
+        </li>
+        <li>
+          <strong>The Transparency Crisis</strong>
+          <p>Carbon accounting loopholes, NDAs, colocation secrecy, and the gap between marketing claims and physical reality across all Big Three. <a href="Project%202/milanote%20markdowns/information-interactions-5--ai--design-studio-week-8-260602_0519.md">Notes &rarr;</a></p>
+        </li>
+        <li>
+          <strong>Advocacy &amp; Community Action</strong>
+          <p>CBAs, Corporate Transparency Scorecards, 150-word email templates, NAACP "Stop Dirty Data" framework, DAIR Institute worker tools. <a href="Project%202/milanote%20markdowns/information-interactions-6-ai--design-studio-week-9-260602_0519.md">Notes &rarr;</a></p>
+        </li>
+      </ol>
     </section>
 
-    <!-- Project Brief / Weekly Roadmap -->
-    <section aria-labelledby="roadmap-h">
-      <h2 id="roadmap-h">Project Brief / Weekly Roadmap</h2>
-      <p>Weeks 5&#8211;11: goal, activities, tools, output, and success indicator for each week.</p>
+    <!-- Reference Image Gallery -->
+    <section aria-labelledby="gallery-h">
+      <h2 id="gallery-h">Reference Images &amp; Infographics</h2>
+      <div class="gallery">
+        <figure>
+          <img src="Project%202/Reference%20Images/green-ecology-flat-ui-ux-elements-eps-vector_545841-674.jpg" alt="Flat UI/UX vector elements in green ecology theme with leaf motifs and clean interface design" loading="lazy" />
+          <figcaption>Green ecology UI/UX design motifs</figcaption>
+        </figure>
+        <figure>
+          <img src="Project%202/Reference%20Images/green-energy-concept-onboarding-screens-ui-ux-gui-user-interface-kit_9209-9744.avif" alt="Onboarding screen UI kit for green energy concept with sustainable branding elements" loading="lazy" />
+          <figcaption>Green energy onboarding screen concept</figcaption>
+        </figure>
+        <figure>
+          <img src="Project%202/Reference%20Images/demarche-green-ux.jpg" alt="Green UX design demonstrating eco-friendly interface layout and sustainable web design" loading="lazy" />
+          <figcaption>Green UX design approach</figcaption>
+        </figure>
+        <figure>
+          <img src="Project%202/Reference%20Images/stunning-modern-eco-friendly-website-design-green-ui-ux-detailed-free-png.webp" alt="Modern eco-friendly website design with green UI/UX and detailed sustainable branding" loading="lazy" />
+          <figcaption>Eco-friendly website design mockup</figcaption>
+        </figure>
+        <figure>
+          <img src="Project%202/Reference%20Images/ddab147a80b232362c353e495e829713.png" alt="Green UI reference layout with organic shapes and nature-inspired color palette" loading="lazy" />
+          <figcaption>Green UI reference layout</figcaption>
+        </figure>
+        <figure>
+          <img src="Project%202/Reference%20Images/1__bHMOsk1ZCIX4qet0N2btw.jpg" alt="Eco-conscious design reference with botanical and sustainable interface elements" loading="lazy" />
+          <figcaption>Sustainable interface reference</figcaption>
+        </figure>
+        <figure>
+          <img src="Project%202/Infographic/AI_Infrastructure_Intelligence_Factory.png" alt="Infographic illustrating AI infrastructure as an intelligence factory with compute, storage, and networking layers" loading="lazy" />
+          <figcaption>AI Infrastructure Intelligence Factory</figcaption>
+        </figure>
+        <figure>
+          <img src="Project%202/Infographic/image%20(1).png" alt="Infographic panel showing data center environmental impact data and sustainability metrics" loading="lazy" />
+          <figcaption>Data center environmental impact panel</figcaption>
+        </figure>
+        <figure>
+          <img src="Project%202/Infographic/image%20(2).png" alt="Infographic comparing AI energy consumption trends and projected growth" loading="lazy" />
+          <figcaption>AI energy consumption projection</figcaption>
+        </figure>
+        <figure>
+          <img src="Project%202/Infographic/image%20(3).png" alt="Infographic on water usage effectiveness and cooling technology comparisons for data centers" loading="lazy" />
+          <figcaption>Cooling technology &amp; water usage</figcaption>
+        </figure>
+        <figure>
+          <img src="Project%202/Infographic/image%20(4).png" alt="Infographic summarizing the Big Three transparency crisis with Microsoft, Amazon, and Google data" loading="lazy" />
+          <figcaption>Big Three transparency crisis overview</figcaption>
+        </figure>
+      </div>
     </section>
 
-    <!-- Prompt Log -->
-    <section aria-labelledby="prompts-h">
-      <h2 id="prompts-h">Prompt Log</h2>
-      <p>Each entry: the prompt used, model / tool, output summary, and what changed afterward.</p>
+    <!-- Experiment Log / Research Journey -->
+    <section aria-labelledby="journey-h">
+      <h2 id="journey-h">Research Journey &amp; Experiment Log</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="tl-marker">Wk 6</div>
+          <div class="tl-content">
+            <strong>Discovery:</strong> First contact with AI infrastructure. GPUs, TPUs, hyperscale data centers. Realized the sheer physical scale behind the "cloud."
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="tl-marker">Wk 7</div>
+          <div class="tl-content">
+            <strong>Deepening:</strong> Environmental costs mapped &mdash; energy, water, e-waste, embodied carbon. Shift from "How does AI work?" to "What does AI cost the planet?"
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="tl-marker">Wk 8</div>
+          <div class="tl-content">
+            <strong>Case Study:</strong> Analyzed Microsoft's 2025 Sustainability Report. Discovered the market-based vs. location-based accounting gap. Learned about mass timber, closed-loop cooling, Circular Centers.
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="tl-marker">Wk 8b</div>
+          <div class="tl-content">
+            <strong>Turn:</strong> Transparency crisis &mdash; Amazon's leaked water memos, Google's surging emissions, NDAs, colocation secrecy. Skepticism confirmed; the gap between marketing and reality is wide.
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="tl-marker">Wk 9</div>
+          <div class="tl-content">
+            <strong>Action:</strong> Advocacy frameworks &mdash; CBAs, scorecards, email templates, NAACP "Stop Dirty Data." Realized the website itself can be a tactical tool, not just an awareness piece.
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- Experiment Log -->
-    <section aria-labelledby="experiments-h">
-      <h2 id="experiments-h">Experiment Log</h2>
-      <p>Each experiment: what you tried, notes, what worked, what failed, and the next step.</p>
-    </section>
-
-    <!-- Links / Workspace Board -->
+    <!-- Workspace Links -->
     <section aria-labelledby="links-h">
-      <h2 id="links-h">Links / Workspace Board</h2>
-      <ul>
-        <li>Milanote / Notion / Figma board</li>
-        <li>AI tools used</li>
-        <li>Repo / site link</li>
-        <li>Working files (Figma, code, assets)</li>
+      <h2 id="links-h">Workspace &amp; Tools</h2>
+      <ul class="link-grid">
+        <li><a href="#" target="_blank">Milanote Board</a> &mdash; visual research collection</li>
+        <li><a href="#" target="_blank">NotebookLM</a> &mdash; AI research notebook (6 interactions)</li>
+        <li><a href="#" target="_blank">GitHub Repo</a> &mdash; code and version history</li>
+        <li><a href="#" target="_blank">Figma Board</a> &mdash; wireframes and visual drafts</li>
+        <li><a href="#" target="_blank">Flow</a> &mdash; project management</li>
+        <li><a href="#" target="_blank">Gemini</a> &mdash; research and fact-checking</li>
+        <li><a href="Project%202/Slide%20Decks/" target="_blank">Slide Decks</a> &mdash; Microsoft Sustainable AI Strategy, The Carbon Negative Marathon</li>
+        <li><a href="Project%202/Videos/" target="_blank">Videos</a> &mdash; Accelerating Sustainability, AI Infrastructure Lifecycle</li>
       </ul>
+    </section>
+
+    <!-- Tactical Advocacy Toolkit -->
+    <section aria-labelledby="toolkit-h">
+      <h2 id="toolkit-h">Tactical Advocacy Toolkit</h2>
+      <p class="section-lede">This dashboard isn't just a research artifact &mdash; it's a launchpad for action. Below are tools adapted from the NAACP "Stop Dirty Data" framework, the Kapor Foundation, and the DAIR Institute.</p>
+      <div class="toolkit-grid">
+        <div class="toolkit-card">
+          <h3>Corporate Transparency Scorecard</h3>
+          <p>Expose the gap between market-based and location-based emissions. Compare Microsoft, Amazon, and Google across water, energy, carbon, and e-waste metrics at a glance.</p>
+        </div>
+        <div class="toolkit-card">
+          <h3>Community Benefit Agreement (CBA) Template</h3>
+          <p>Adaptable legal framework to force developers to disclose facility-level utility use, fund independent Health Impact Assessments, and commit to zero-water cooling before permits are approved.</p>
+        </div>
+        <div class="toolkit-card">
+          <h3>150-Word Advocacy Email Template</h3>
+          <p>Ready-to-customize email to city council / zoning board demanding zero-water closed-loop cooling and waste heat recovery in any new data center proposal.</p>
+        </div>
+        <div class="toolkit-card">
+          <h3>NAACP "Stop Dirty Data" Framework</h3>
+          <p>Use the Data Center Community Report Form to crowdsource facility locations and map environmental inequities in your region.</p>
+        </div>
+      </div>
     </section>
 
   </main>
 
   <footer class="site-footer">
-    <p>DESN 374 &#183; Command Center &#183; built with the Interview &#8594; Brainstorm &#8594; Plan &#8594; Code &#8594; Commit workflow</p>
+    <p>DESN 374 &middot; AI + Design Studio &middot; Built with Interview &rarr; Brainstorm &rarr; Plan &rarr; Code &rarr; Commit workflow</p>
   </footer>
 </body>
 </html>
